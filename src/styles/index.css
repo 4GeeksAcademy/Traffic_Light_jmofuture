@@ -10,3 +10,50 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+#trafficTop {
+    width: 100px;
+    background-color: black;
+    padding: 10px;
+    margin: 50px auto;
+    border-radius: 20px;
+    position: relative;
+  }
+  
+  #container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .light {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: gray;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .green {
+    background-color: green;
+  }
+
+  .purple {
+    background-color: purple;
+  }
+  
+  .glow {
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.7);
+  }
+  
